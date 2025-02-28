@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SL_Bullion</name>
+    </assembly>
+    <members>
+        <member name="T:SL_Bullion.Migrations.initial">
+            <inheritdoc />
+        </member>
+        <member name="M:SL_Bullion.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SL_Bullion.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SL_Bullion.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SL_Bullion.WebAPI.bullionController.version(System.String,System.String)">
+             <remarks>
+             Todo:
+            user:userName of project,type:android or ios
+             </remarks>
+        </member>
+        <member name="M:SL_Bullion.WebAPI.bullionController.update(System.String,System.String,System.String)">
+            <remarks>
+            Todo:
+            dateFormat:dd/MM/yyyy
+            </remarks>
+        </member>
+        <member name="M:SL_Bullion.WebAPI.bullionController.feedback(System.Text.Json.Nodes.JsonObject)">
+             <remarks>
+             Sample request:
+            
+                 {"user": "","name": "","mobile": "","email":"","subject":"","message":""}
+            
+             </remarks>
+        </member>
+        <member name="M:SL_Bullion.WebAPI.bullionController.otr(System.Text.Json.Nodes.JsonObject)">
+             <remarks>
+             Sample request:
+            
+                 {"user": "","name": "","mobile": "","firmname":"","city":""}
+            
+             </remarks>
+        </member>
+    </members>
+</doc>

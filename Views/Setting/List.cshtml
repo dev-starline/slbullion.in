@@ -1,0 +1,88 @@
+﻿@model IEnumerable<SL_Bullion.Models.ReferanceSymbol>
+
+@{
+    ViewData["Title"] = "Setting";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="rateDif">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 px-2 mt-2">
+                <div class="rate-dif-main-cover bg-gray pb-2">
+
+                    <h5 class="common-bg py-1 text-center rounded">Reference </h5>
+                    <table>
+                        @foreach (var item in Model) {
+                        <tr>
+                            <td class="w-25">
+                                <div class="content">
+                                        <input class="isView" checked="@(item.isView ? "checked" : null)" type="checkbox">
+                                </div>
+                            </td>
+                                    <td class="w-25">@item.source</td>
+                                    <td class="w-25"> <input type="text" class="input-height sm-font name" value="@item.name"></td>
+                            <td class="w-25">
+                                <div class="sbt text-center py-2">
+                                        <button id=@item.id class="btn common-bg color-white sm-font updateReferance">Update</button>
+                                </div>
+                            </td>
+                        </tr>
+                        }
+                        
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-4 px-2 mt-2">
+
+                <div class="rate-dif-main-cover bg-gray pb-2">
+
+                    <h5 class="common-bg py-1 text-center rounded">Rate Difference</h5>
+                    <table>
+                        <tr>
+                            <td class="w-25"> <label for="" class="w-25 text-left pl-3 pt-2"><strong>Gold</strong></label></td>
+                            <td class="w-75"> <input type="text" class="input-height sm-font gold mt-2" value="100"></td>
+                        </tr>
+                        <tr>
+                            <td class="w-25"> <label for="" class="w-25 text-left pl-3 pt-2"><strong>Silver</strong></label></td>
+                            <td class="w-75"> <input type="text" class="input-height sm-font silver mt-2" value="100"></td>
+                        </tr>
+                    </table>
+                    <div class="sbt text-center py-2">
+                        <button class="btn common-bg updateRateDifferance">Submit</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 px-2 mt-2">
+
+                <div class="horizontal-form-box bg-gray">
+                    <div class="cnp text-center">
+                        <h5 class="common-bg py-1 text-center rounded">Change Password</h5>
+                    </div>
+                    <table>
+                        <tr>
+                            <td class="w-25"> <label for="" class="w-75 text-left pt-2 pl-3"><strong>Old Password</strong></label></td>
+                            <td class="w-75"> <input type="password" class="input-height sm-font mt-2 oldPassword"></td>
+                        </tr>
+                        <tr>
+                            <td class="w-25"> <label for="" class="w-75 text-left pt-2 pl-3"><strong>New Password</strong></label></td>
+                            <td class="w-75"> <input type="password" class="input-height sm-font mt-2 newPassword"></td>
+                        </tr>
+                        <tr>
+                            <td class="w-25"> <label for="" class="w-75 text-left pt-2 pl-3"><strong>Confirm Password</strong></label></td>
+                            <td class="w-75"> <input type="password" class="input-height sm-font mt-2 confirmPassword"></td>
+                        </tr>
+                    </table>
+                    <div class="sbt text-center py-2">
+                        <button class="btn common-bg updatePassword">Update</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<script src="~/adminjs/setting.js"></script>

@@ -1,0 +1,2 @@
+id,clientId,mobile,companyName,companyAddress,name,partnerName,partnerMobile,officeMobile1,officeMobile2,residenceAddress,mail,bankName,branchName,accountNumber,ifsc,gstNumber,panNumber,reference,url,Files,user,modifiedDate
+0,0,7894561230,,,,,,,,,,,,,,,,,,System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile],SC,29-05-2024 16:20:29

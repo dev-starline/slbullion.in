@@ -1,0 +1,36 @@
+﻿@model IEnumerable<SL_Bullion.Models.ClientRate>
+@{
+    ViewData["Title"] = "ClientRate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="table-cover">
+    <div class="container-fluid">
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="common-bg thead-font wten">Symbol</th>
+                        <th class="common-bg thead-font wten">Identifier</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <div class="content">
+                                    <p>@item.symbol</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="content">
+                                    <p>@item.identifier</p>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

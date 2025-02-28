@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DELL\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\noty.js",
+      "PackagePath": "staticwebassets\\noty.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\toastr.js",
+      "PackagePath": "staticwebassets\\toastr.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SL_Bullion.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SL_Bullion.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\coin.js",
+      "PackagePath": "staticwebassets\\adminJS\\coin.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\common.js",
+      "PackagePath": "staticwebassets\\adminJS\\common.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\contact.js",
+      "PackagePath": "staticwebassets\\adminJS\\contact.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\costing.js",
+      "PackagePath": "staticwebassets\\adminJS\\costing.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\marketwatch.js",
+      "PackagePath": "staticwebassets\\adminJS\\marketwatch.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\master.js",
+      "PackagePath": "staticwebassets\\adminJS\\master.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\setting.js",
+      "PackagePath": "staticwebassets\\adminJS\\setting.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\symbol.js",
+      "PackagePath": "staticwebassets\\adminJS\\symbol.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\css\\common.css",
+      "PackagePath": "staticwebassets\\css\\common.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\images\\banner\\1\\web\\profile-bg.png",
+      "PackagePath": "staticwebassets\\images\\banner\\1\\web\\profile-bg.png"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\images\\coin\\1.png",
+      "PackagePath": "staticwebassets\\images\\coin\\1.png"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\images\\coin\\3.png",
+      "PackagePath": "staticwebassets\\images\\coin\\3.png"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\images\\kyc\\2\\7894561230\\7894561230_data.csv",
+      "PackagePath": "staticwebassets\\images\\kyc\\2\\7894561230\\7894561230_data.csv"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\images\\kyc\\2\\7894561230\\_7894561230_kyc.zip",
+      "PackagePath": "staticwebassets\\images\\kyc\\2\\7894561230\\_7894561230_kyc.zip"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\images\\privacyPolicy\\SL.html",
+      "PackagePath": "staticwebassets\\images\\privacyPolicy\\SL.html"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\img\\Investment.jpg",
+      "PackagePath": "staticwebassets\\img\\Investment.jpg"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\img\\editimg.png",
+      "PackagePath": "staticwebassets\\img\\editimg.png"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\img\\logo-dark.png",
+      "PackagePath": "staticwebassets\\img\\logo-dark.png"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\img\\noimage.png",
+      "PackagePath": "staticwebassets\\img\\noimage.png"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\js\\jquery-3.2.1.slim.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.2.1.slim.min.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\js\\man.js",
+      "PackagePath": "staticwebassets\\js\\man.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SL_Bullion.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SL_Bullion.props",
+      "PackagePath": "build\\SL_Bullion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SL_Bullion.props",
+      "PackagePath": "buildMultiTargeting\\SL_Bullion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SL_Bullion.props",
+      "PackagePath": "buildTransitive\\SL_Bullion.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
