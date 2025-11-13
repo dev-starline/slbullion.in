@@ -271,6 +271,61 @@ namespace SL_Bullion.WebAPI
             return Ok(_response);
         }
 
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     {"user": ""}
+        ///
+        /// </remarks>
+        /// 
+        [HttpGet("GetSlider")]
+        public async Task<IActionResult> GetSlider(string user)
+        {
+            var response = new ResponseBody();
+
+            try
+            {
+                int clientId = getClientId(user);
+
+                string baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host}";
+
+                var sliderList = await _context.tblSlider
+                    .Where(s => s.ClientId == clientId)
+                    .Select(s => new
+                    {
+                        s.SliderId,
+
+                        SliderThumbnailUrl = string.IsNullOrEmpty(s.SliderThumbnailPath)
+                            ? null
+                            : Path.Combine(baseUrl, s.SliderThumbnailPath.Replace("\\", "/")),
+
+                        SliderUrl = string.IsNullOrEmpty(s.SliderPath)
+                            ? null
+                            : Path.Combine(baseUrl, s.SliderPath.Replace("\\", "/"))
+                    })
+                    .ToListAsync();
+
+                if (sliderList.Count > 0)
+                {
+                    response.code = 200;
+                    response.message = "Data fetched successfully";
+                    response.data = sliderList;
+                    return Ok(response);
+                }
+
+                response.code = 404;
+                response.message = _message.C101;
+                response.data = Array.Empty<object>();
+                return NotFound(response);
+            }
+            catch (Exception ex)
+            {
+                response.code = 500;
+                response.message = $"An internal server error occurred while fetching slider data: {ex.Message}";
+                response.data = Array.Empty<object>();
+                return StatusCode(500, response);
+            }
+        }
 
     }
 

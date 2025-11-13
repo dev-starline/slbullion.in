@@ -22,6 +22,7 @@ namespace SL_Bullion.DAL
         public virtual DbSet<CoinBank> tblCoinBank { get; set; }
         public virtual DbSet<Kyc> tblKyc { get; set; }
         public virtual DbSet<BankLogo> tblBankLogo { get; set; }
-    }
+		public virtual DbSet<Slider> tblSlider { get; set; }
+	}
 
 }

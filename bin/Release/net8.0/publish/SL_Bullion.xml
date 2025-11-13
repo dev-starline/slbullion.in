@@ -44,5 +44,14 @@
             
              </remarks>
         </member>
+        <member name="M:SL_Bullion.WebAPI.bullionController.GetSlider(System.String)">
+             <remarks>
+             Sample request:
+            
+                 {"user": ""}
+            
+             </remarks>
+             
+        </member>
     </members>
 </doc>

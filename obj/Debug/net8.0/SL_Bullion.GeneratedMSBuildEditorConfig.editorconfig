@@ -17,119 +17,127 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SL_Bullion
 build_property.RootNamespace = SL_Bullion
-build_property.ProjectDir = D:\Vimal\CoreProject\Bullion\New folder\b1.starlinedashboard.in\
+build_property.ProjectDir = D:\Nitesh\CoreProject\slbullion.in\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\Vimal\CoreProject\Bullion\New folder\b1.starlinedashboard.in
+build_property.MSBuildProjectDirectory = D:\Nitesh\CoreProject\slbullion.in
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Bank/Action.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Bank/Action.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xBY3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Bank/List.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Bank/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/ClientRate/List.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/ClientRate/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50UmF0ZVxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Coin/Action.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Coin/Action.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29pblxBY3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Coin/Bank.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Coin/Bank.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29pblxCYW5rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Coin/List.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Coin/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29pblxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Contact/List.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Contact/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Feedback/List.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Feedback/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Kyc/List.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Kyc/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3ljXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Login/List.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Login/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Marketwatch/List.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Marketwatch/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0d2F0Y2hcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Master/Action.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Master/Action.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyXEFjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Master/Client.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Master/Client.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyXENsaWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Master/Login.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Master/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Master/Referance.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Master/Referance.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyXFJlZmVyYW5jZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Otr/List.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Otr/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3RyXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Setting/List.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Setting/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ1xMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Shared/Error.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Symbol/Action.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Slider/Action.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXEFjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nitesh/CoreProject/slbullion.in/Views/Slider/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nitesh/CoreProject/slbullion.in/Views/Symbol/Action.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ltYm9sXEFjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Symbol/Bank.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Symbol/Bank.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ltYm9sXEJhbmsuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Symbol/List.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Symbol/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ltYm9sXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Update/Action.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Update/Action.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlXEFjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Update/List.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Update/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/_ViewImports.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/_ViewStart.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vimal/CoreProject/Bullion/New folder/b1.starlinedashboard.in/Views/Shared/_Layout.cshtml]
+[D:/Nitesh/CoreProject/slbullion.in/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jjjl9rsqv3

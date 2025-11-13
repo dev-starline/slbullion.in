@@ -1,355 +1,435 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\DELL\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\noty.js",
+      "Id": "C:\\Users\\acer\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\noty.js",
       "PackagePath": "staticwebassets\\noty.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\toastr.js",
+      "Id": "C:\\Users\\acer\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\toastr.js",
       "PackagePath": "staticwebassets\\toastr.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SL_Bullion.bundle.scp.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SL_Bullion.bundle.scp.css",
       "PackagePath": "staticwebassets\\SL_Bullion.bundle.scp.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\coin.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\adminJS\\coin.js",
       "PackagePath": "staticwebassets\\adminJS\\coin.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\common.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\adminJS\\common.js",
       "PackagePath": "staticwebassets\\adminJS\\common.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\contact.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\adminJS\\contact.js",
       "PackagePath": "staticwebassets\\adminJS\\contact.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\costing.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\adminJS\\costing.js",
       "PackagePath": "staticwebassets\\adminJS\\costing.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\marketwatch.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\adminJS\\marketwatch.js",
       "PackagePath": "staticwebassets\\adminJS\\marketwatch.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\master.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\adminJS\\master.js",
       "PackagePath": "staticwebassets\\adminJS\\master.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\setting.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\adminJS\\setting.js",
       "PackagePath": "staticwebassets\\adminJS\\setting.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\adminJS\\symbol.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\adminJS\\symbol.js",
       "PackagePath": "staticwebassets\\adminJS\\symbol.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\css\\common.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\css\\common.css",
       "PackagePath": "staticwebassets\\css\\common.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\css\\login.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\css\\responsive.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\css\\style.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\favicon.ico",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\images\\banner\\1\\web\\profile-bg.png",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\banner\\1\\web\\profile-bg.png",
       "PackagePath": "staticwebassets\\images\\banner\\1\\web\\profile-bg.png"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\images\\coin\\1.png",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\coin\\1.png",
       "PackagePath": "staticwebassets\\images\\coin\\1.png"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\images\\coin\\3.png",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\coin\\3.png",
       "PackagePath": "staticwebassets\\images\\coin\\3.png"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\images\\kyc\\2\\7894561230\\7894561230_data.csv",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\kyc\\2\\7894561230\\7894561230_data.csv",
       "PackagePath": "staticwebassets\\images\\kyc\\2\\7894561230\\7894561230_data.csv"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\images\\kyc\\2\\7894561230\\_7894561230_kyc.zip",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\kyc\\2\\7894561230\\_7894561230_kyc.zip",
       "PackagePath": "staticwebassets\\images\\kyc\\2\\7894561230\\_7894561230_kyc.zip"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\images\\privacyPolicy\\SL.html",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\privacyPolicy\\SL.html",
       "PackagePath": "staticwebassets\\images\\privacyPolicy\\SL.html"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\img\\Investment.jpg",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\0013ab17-2e22-4fab-b0ec-cb1fe0b08e1a.png",
+      "PackagePath": "staticwebassets\\images\\slider\\0013ab17-2e22-4fab-b0ec-cb1fe0b08e1a.png"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\1ec5b609-2d68-4612-ab15-38f68c55dccf.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\1ec5b609-2d68-4612-ab15-38f68c55dccf.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\3145a238-bae3-4bfc-8c32-abb0d9fc4c1b.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\3145a238-bae3-4bfc-8c32-abb0d9fc4c1b.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\454134b9-c34d-4198-a45e-a71ccb5a960d.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\454134b9-c34d-4198-a45e-a71ccb5a960d.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\4dc9ca61-40c3-4c1e-b371-eeb1ed83be54.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\4dc9ca61-40c3-4c1e-b371-eeb1ed83be54.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\7a57259f-2aa3-41de-883f-223144902514.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\7a57259f-2aa3-41de-883f-223144902514.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\7d99c43d-3c78-4cc7-bc96-1a1d9f5a6343.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\7d99c43d-3c78-4cc7-bc96-1a1d9f5a6343.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\9a4f4c84-7f0c-4234-a342-6155bfc661e7.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\9a4f4c84-7f0c-4234-a342-6155bfc661e7.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\d7152388-1f2c-4f39-9797-4e9dca46ac79.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\d7152388-1f2c-4f39-9797-4e9dca46ac79.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\e8527d6a-8ce9-4f1c-a063-58f3e85b56e4.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\e8527d6a-8ce9-4f1c-a063-58f3e85b56e4.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\0d275f45-df82-4be6-9178-c00e257e15da_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\thumbnails\\0d275f45-df82-4be6-9178-c00e257e15da_thumbnail.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\1451dea8-84c3-4087-9256-8460c09210e2_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\thumbnails\\1451dea8-84c3-4087-9256-8460c09210e2_thumbnail.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\36381013-bd76-44e8-b1f9-2435bd85d228_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\thumbnails\\36381013-bd76-44e8-b1f9-2435bd85d228_thumbnail.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\605da48c-d9d4-4f3f-b7e4-d90dc027a7be_thumbnail.png",
+      "PackagePath": "staticwebassets\\images\\slider\\thumbnails\\605da48c-d9d4-4f3f-b7e4-d90dc027a7be_thumbnail.png"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\960147ff-29f4-452c-8d02-ae377a34c476_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\thumbnails\\960147ff-29f4-452c-8d02-ae377a34c476_thumbnail.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\b636252c-30b9-44c0-b058-fdef7914b16f_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\thumbnails\\b636252c-30b9-44c0-b058-fdef7914b16f_thumbnail.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\c60f3477-2895-4327-b61d-caf24d515096_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\thumbnails\\c60f3477-2895-4327-b61d-caf24d515096_thumbnail.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\c8b96856-82f9-4caf-b452-89fb118df643_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\thumbnails\\c8b96856-82f9-4caf-b452-89fb118df643_thumbnail.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\df878163-de64-4f4b-b0ff-495c65c2064a_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\thumbnails\\df878163-de64-4f4b-b0ff-495c65c2064a_thumbnail.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\e067d108-813d-47e5-b599-a881d67e31ff_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\thumbnails\\e067d108-813d-47e5-b599-a881d67e31ff_thumbnail.jpg"
+    },
+    {
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\img\\Investment.jpg",
       "PackagePath": "staticwebassets\\img\\Investment.jpg"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\img\\editimg.png",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\img\\editimg.png",
       "PackagePath": "staticwebassets\\img\\editimg.png"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\img\\logo-dark.png",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\img\\logo-dark.png",
       "PackagePath": "staticwebassets\\img\\logo-dark.png"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\img\\noimage.png",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\img\\noimage.png",
       "PackagePath": "staticwebassets\\img\\noimage.png"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\js\\jquery-3.2.1.slim.min.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\js\\jquery-3.2.1.slim.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-3.2.1.slim.min.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\js\\man.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\js\\man.js",
       "PackagePath": "staticwebassets\\js\\man.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\js\\popper.min.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\js\\popper.min.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Vimal\\CoreProject\\Bullion\\SL_Bullion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

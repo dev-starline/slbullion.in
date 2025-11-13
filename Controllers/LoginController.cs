@@ -45,7 +45,7 @@ namespace SL_Bullion.Controllers
                 HttpContext.Session.SetString("role", "admin");
                 HttpContext.Session.SetInt32("clientId", data.id);
                 HttpContext.Session.SetString("userName", data.userName);
-                HttpContext.Session.SetString("adminData", data.isCoin+"|"+ data.isJewellery + "|" + data.isKyc + "|" + data.isOtr + "|" + data.isUpdate + "|" + data.isBank + "|" + data.isFeedback + "|" + data.isClientRate);
+                HttpContext.Session.SetString("adminData", data.isCoin+"|"+ data.isJewellery + "|" + data.isKyc + "|" + data.isOtr + "|" + data.isUpdate + "|" + data.isBank + "|" + data.isFeedback + "|" + data.isClientRate + "|" + data.isSlider);
                 return RedirectToAction("List", "Symbol");
             }
             else

@@ -33,9 +33,12 @@ namespace SL_Bullion.Models
         public bool isBank { get; set; } = false;
         public bool isFeedback { get; set; } = false;
         public bool isClientRate { get; set; } = false;
+        public bool isSlider { get; set; } = false;
+
         [NotMapped]
         public IFormFile? privacyPolicyFile { get; set; }
-        public DateTime createDate { get; set; } = DateTime.Now;
+		public int? totalSlider { get; set; } = 0;
+		public DateTime createDate { get; set; } = DateTime.Now;
         public DateTime modifiedDate { get; set; }
     }
 }
