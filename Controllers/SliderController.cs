@@ -274,7 +274,8 @@ namespace SL_Bullion.Controllers
                     image.Save(filePath);
                 }
 
-                string fileUrl = Url.Content("~/slider/thumbnails/" + uniqueFileName);
+                //string fileUrl = Url.Content("~/slider/thumbnails/" + uniqueFileName);
+                string fileUrl = $"{Request.Scheme}://{Request.Host}/images/slider/thumbnails/{uniqueFileName}";
                 return fileUrl;
             }
             return null;
