@@ -46,6 +46,27 @@ namespace SL_Bullion.Migrations
                     table.PrimaryKey("PK_tblBankLogo", x => x.id);
                 });
 
+
+
+            migrationBuilder.CreateTable(
+               name: "tblHistoryRate",
+               columns: table => new
+               {
+                   id = table.Column<int>(type: "int", nullable: false)
+                       .Annotation("SqlServer:Identity", "1, 1"),
+                   clientId = table.Column<int>(type: "int", nullable: false),
+                   symbolName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                   openRate = table.Column<double>(type: "float", nullable: false),
+                   closeRate = table.Column<double>(type: "float", nullable: false),
+                   highRate = table.Column<double>(type: "float", nullable: false),
+                   lowRate = table.Column<double>(type: "float", nullable: false),
+                   createDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+               },
+               constraints: table =>
+               {
+                   table.PrimaryKey("PK_tblHistoryRate", x => x.id);
+               });
+
             migrationBuilder.CreateTable(
                 name: "tblBankRate",
                 columns: table => new
@@ -406,6 +427,8 @@ namespace SL_Bullion.Migrations
 
             migrationBuilder.DropTable(
                 name: "tblSymbol");
+            migrationBuilder.DropTable(
+               name: "tblHistoryRate");
 
             migrationBuilder.DropTable(
                 name: "tblUpdate");

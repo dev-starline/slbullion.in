@@ -29,6 +29,7 @@ namespace SL_Bullion.Controllers
             var bankLogo = _context.tblBankLogo.Select(bl => new { text = bl.text, value = bl.value }).ToList();
             ViewBag.bankLogo = new SelectList(bankLogo, "value", "text");
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("id,clientId,accountName,bankName,accountNumber,ifscCode,branchName,bankLogo,bankLogoUrl,modifiedDate")] Bank bank)

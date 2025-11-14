@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SL_Bullion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+698d61268e0be2d5298fac95879ec0fa94cd1a9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0203e24e43f58ffea4d48bd80bc3770895bdc76e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SL_Bullion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SL_Bullion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

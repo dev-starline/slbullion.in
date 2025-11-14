@@ -89,7 +89,13 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Setting" asp-action="List">Setting</a>
                         </li>
-                        <li class="nav-item @(adminData?.Split('|')[8] == "False" ? "hidden" : "")">
+
+                         <li class="nav-item @(adminData?.Split('|')[8] == "False" ? "hidden" : "")">
+                            <a class="nav-link" asp-controller="HistoryRate" asp-action="List">History</a>
+                        </li>
+
+
+                        <li class="nav-item @(adminData?.Split('|')[9] == "False" ? "hidden" : "")">
                             <a class="nav-link" asp-controller="Slider" asp-action="List">Slider</a>
                         </li>
                     </ul>

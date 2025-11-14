@@ -58,6 +58,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Nitesh/CoreProject/slbullion.in/Views/HistoryRate/Action.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yeVJhdGVcQWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nitesh/CoreProject/slbullion.in/Views/HistoryRate/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yeVJhdGVcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Nitesh/CoreProject/slbullion.in/Views/Kyc/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3ljXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

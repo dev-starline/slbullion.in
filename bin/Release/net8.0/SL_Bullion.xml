@@ -44,6 +44,15 @@
             
              </remarks>
         </member>
+        <member name="M:SL_Bullion.WebAPI.bullionController.HistoryRate(System.String,System.String,System.String,System.String)">
+             <remarks>
+             Sample request:
+            
+                 {"user": "","fromDate": "","toDate": "","type":""}
+            
+             </remarks>
+             
+        </member>
         <member name="M:SL_Bullion.WebAPI.bullionController.GetSlider(System.String)">
              <remarks>
              Sample request:

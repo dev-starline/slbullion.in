@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FKrOwQhwj8TEJJmk6eh4itExKMZsoRpfsNLynKjTN4w=",
+  "Hash": "uSli656yklO4UAs1NutEVxVa+xkVAZAEttTgKrn8ZiY=",
   "Source": "SL_Bullion",
   "BasePath": "_content/SL_Bullion",
   "Mode": "Default",
@@ -758,6 +758,25 @@
       "OriginalItemSpec": "wwwroot\\images\\slider\\f0c833d0-4114-4a69-b843-04883531c4f3.jpg"
     },
     {
+      "Identity": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\fb9fb5cb-4358-4793-9848-38ef4e0d9bd1.jpg",
+      "SourceId": "SL_Bullion",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\",
+      "BasePath": "_content/SL_Bullion",
+      "RelativePath": "images/slider/fb9fb5cb-4358-4793-9848-38ef4e0d9bd1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\slider\\fb9fb5cb-4358-4793-9848-38ef4e0d9bd1.jpg"
+    },
+    {
       "Identity": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\0d275f45-df82-4be6-9178-c00e257e15da_thumbnail.jpg",
       "SourceId": "SL_Bullion",
       "SourceType": "Discovered",
@@ -927,6 +946,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\slider\\thumbnails\\c8b96856-82f9-4caf-b452-89fb118df643_thumbnail.jpg"
+    },
+    {
+      "Identity": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\d7b2e0af-ce62-4578-b89b-699110e646fa_thumbnail.jpg",
+      "SourceId": "SL_Bullion",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\",
+      "BasePath": "_content/SL_Bullion",
+      "RelativePath": "images/slider/thumbnails/d7b2e0af-ce62-4578-b89b-699110e646fa_thumbnail.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\slider\\thumbnails\\d7b2e0af-ce62-4578-b89b-699110e646fa_thumbnail.jpg"
     },
     {
       "Identity": "D:\\Nitesh\\CoreProject\\slbullion.in\\wwwroot\\images\\slider\\thumbnails\\df878163-de64-4f4b-b0ff-495c65c2064a_thumbnail.jpg",

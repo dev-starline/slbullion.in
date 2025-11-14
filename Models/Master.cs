@@ -33,6 +33,7 @@ namespace SL_Bullion.Models
         public bool isBank { get; set; } = false;
         public bool isFeedback { get; set; } = false;
         public bool isClientRate { get; set; } = false;
+       public bool isHistory { get; set; } = false;
         public bool isSlider { get; set; } = false;
 
         [NotMapped]

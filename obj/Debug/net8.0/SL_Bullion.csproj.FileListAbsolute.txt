@@ -576,11 +576,6 @@ D:\Vimal\CoreProject\Bullion\SL_Bullion\obj\Debug\net8.0\SL_Bullion.xml
 D:\Vimal\CoreProject\Bullion\SL_Bullion\obj\Debug\net8.0\SL_Bullion.pdb
 D:\Vimal\CoreProject\Bullion\SL_Bullion\obj\Debug\net8.0\SL_Bullion.genruntimeconfig.cache
 D:\Vimal\CoreProject\Bullion\SL_Bullion\obj\Debug\net8.0\ref\SL_Bullion.dll
-D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\Microsoft.Build.Framework.dll
-D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\System.Composition.Runtime.dll
-D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\appsettings.Development.json
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\appsettings.json
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\SL_Bullion.staticwebassets.runtime.json
@@ -907,6 +902,7 @@ D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Raz
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\Microsoft.Build.dll
+D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\Microsoft.Build.Framework.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -973,6 +969,7 @@ D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\System.CodeDom.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\System.Composition.Convention.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\System.Composition.Runtime.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\System.Composition.TypedParts.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\System.Drawing.Common.dll
@@ -1057,6 +1054,7 @@ D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CS
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
@@ -1082,6 +1080,7 @@ D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CS
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
@@ -1094,6 +1093,7 @@ D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Fe
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Nitesh\CoreProject\slbullion.in\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll

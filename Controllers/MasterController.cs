@@ -109,7 +109,7 @@ namespace SL_Bullion.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id,userName,password,isActive,firmName,clientName,mobile,city,domain,symbol,group,versionAndroid,versionIos,isCoin,isJewellery,isSlider,isKyc,isOtr,isUpdate,isBank,isFeedback,isClientRate,privacyPolicyFile,fcmKey,createDate,modifiedDate,totalSlider")] Master master)
+        public async Task<IActionResult> Edit(int id, [Bind("id,userName,password,isActive,firmName,clientName,mobile,city,domain,symbol,group,versionAndroid,versionIos,isCoin,isJewellery,isSlider,isKyc,isOtr,isUpdate,isBank,isFeedback,isHistory,isClientRate,privacyPolicyFile,fcmKey,createDate,modifiedDate,totalSlider")] Master master)
         {
             if (id != master.id)
             {

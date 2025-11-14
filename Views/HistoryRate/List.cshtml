@@ -1,0 +1,65 @@
+﻿@model IEnumerable<SL_Bullion.Models.HistoryRate>
+
+@{
+    ViewData["Title"] = "HistoryRate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="tab-bottom-cvr w-100 d-inline-block">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="top-cover">
+                    <button class="btn common-bg my-2 mx-2 my-sm-0 sm-font" data-toggle="modal" data-target="#addRate">Add Rate</button>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12"></div>
+            <div class="col-md-4 col-sm-12 text-center"></div>
+        </div>
+    </div>
+</div>
+
+<div class="table-cover">
+    <div class="container-fluid">
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="common-bg thead-font wten">Date</th>
+                        <th class="common-bg thead-font wten">SYMBOL</th>
+                        <th class="common-bg thead-font wten">OPEN</th>
+                        <th class="common-bg thead-font wten">CLOSE</th>
+                        <th class="common-bg thead-font wten">HIGH</th>
+                        <th class="common-bg thead-font wten">LOW</th>
+                        <th class="common-bg thead-font wten">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td><div class="content"><p>@item.createDate.ToString("dd-MMM-yyyy HH:mm")</p></div></td>
+                            <td><div class="content"><p>@item.symbolName</p></div></td>
+                            <td><div class="content"><p>@item.openRate</p></div></td>
+                            <td><div class="content"><p>@item.closeRate</p></div></td>
+                            <td><div class="content"><p>@item.highRate</p></div></td>
+                            <td><div class="content"><p>@item.lowRate</p></div></td>
+
+                            <td class="wfive">
+                                <div class="content">
+                                    <form asp-action="Delete" asp-route-id="@item.id">
+                                        <button onclick="return confirmDelete()">
+                                            <i class="fa fa-trash-o text-danger"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div id="modelPopup"></div>
+@await Html.PartialAsync("Action", new HistoryRate())
