@@ -12,8 +12,8 @@ using SL_Bullion.DAL;
 namespace SL_Bullion.Migrations
 {
     [DbContext(typeof(BullionDbContext))]
-    [Migration("20250213081807_initial")]
-    partial class initial
+    [Migration("20251118064424_sladmin")]
+    partial class sladmin
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -433,6 +433,40 @@ namespace SL_Bullion.Migrations
                     b.ToTable("tblFeedback");
                 });
 
+            modelBuilder.Entity("SL_Bullion.Models.HistoryRate", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<int>("clientId")
+                        .HasColumnType("int");
+
+                    b.Property<double>("closeRate")
+                        .HasColumnType("float");
+
+                    b.Property<DateTime>("createDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<double>("highRate")
+                        .HasColumnType("float");
+
+                    b.Property<double>("lowRate")
+                        .HasColumnType("float");
+
+                    b.Property<double>("openRate")
+                        .HasColumnType("float");
+
+                    b.Property<string>("symbolName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("tblHistoryRate");
+                });
+
             modelBuilder.Entity("SL_Bullion.Models.Kyc", b =>
                 {
                     b.Property<int>("id")
@@ -554,6 +588,9 @@ namespace SL_Bullion.Migrations
                     b.Property<bool>("isFeedback")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("isHistory")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("isJewellery")
                         .HasColumnType("bit");
 
@@ -561,6 +598,9 @@ namespace SL_Bullion.Migrations
                         .HasColumnType("bit");
 
                     b.Property<bool>("isOtr")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("isSlider")
                         .HasColumnType("bit");
 
                     b.Property<bool>("isUpdate")
@@ -578,6 +618,9 @@ namespace SL_Bullion.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("symbol")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("totalSlider")
                         .HasColumnType("int");
 
                     b.Property<string>("userName")
@@ -681,6 +724,34 @@ namespace SL_Bullion.Migrations
                     b.HasKey("id");
 
                     b.ToTable("tblReferanceSymbol");
+                });
+
+            modelBuilder.Entity("SL_Bullion.Models.Slider", b =>
+                {
+                    b.Property<int>("SliderId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SliderId"));
+
+                    b.Property<int>("ClientId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("SliderPath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SliderThumbnailPath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("SliderId");
+
+                    b.ToTable("tblSlider");
                 });
 
             modelBuilder.Entity("SL_Bullion.Models.Symbol", b =>

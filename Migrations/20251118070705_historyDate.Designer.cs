@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SL_Bullion.DAL;
 
@@ -11,9 +12,11 @@ using SL_Bullion.DAL;
 namespace SL_Bullion.Migrations
 {
     [DbContext(typeof(BullionDbContext))]
-    partial class BullionDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251118070705_historyDate")]
+    partial class historyDate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

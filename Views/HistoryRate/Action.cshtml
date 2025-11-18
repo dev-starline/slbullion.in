@@ -39,6 +39,12 @@
                                 <td class="sym-mod-lef text-left pb-2 pr-3"> <label for="" class="sm-font mb-0">LowRate</label><span class="pl-rgt pr-2" style="float: right;">:</span></td>
                                 <td class="sym-mod-right pb-2"><textarea asp-for="lowRate" cols="26" rows="4" class="sm-font p-1"></textarea></td>
                             </tr>
+                            <tr>
+                                <td class="sym-mod-lef text-left pb-2 pr-3"> <label for="" class="sm-font mb-0">Date</label><span class="pl-rgt pr-2" style="float: right;">:</span></td>
+                                <td class="sym-mod-right pb-2"><input type="date" name="historyDate" id="historyDate" class="text-left" value="@DateTime.Today.ToString("yyyy-MM-dd")"></td>
+
+                            </tr>
+
                     </tbody>
                 </table>
                 <div class="btn-sub text-center">

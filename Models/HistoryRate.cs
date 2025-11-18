@@ -13,7 +13,7 @@ namespace SL_Bullion.Models
         public double closeRate { get; set; }
         public double highRate { get; set; }
         public double lowRate { get; set; }
-
+        public DateOnly historyDate { get; set; } 
         public DateTime createDate { get; set; } = DateTime.Now;
     }
 }

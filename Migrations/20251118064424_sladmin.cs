@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SL_Bullion.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class sladmin : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -45,27 +45,6 @@ namespace SL_Bullion.Migrations
                 {
                     table.PrimaryKey("PK_tblBankLogo", x => x.id);
                 });
-
-
-
-            migrationBuilder.CreateTable(
-               name: "tblHistoryRate",
-               columns: table => new
-               {
-                   id = table.Column<int>(type: "int", nullable: false)
-                       .Annotation("SqlServer:Identity", "1, 1"),
-                   clientId = table.Column<int>(type: "int", nullable: false),
-                   symbolName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                   openRate = table.Column<double>(type: "float", nullable: false),
-                   closeRate = table.Column<double>(type: "float", nullable: false),
-                   highRate = table.Column<double>(type: "float", nullable: false),
-                   lowRate = table.Column<double>(type: "float", nullable: false),
-                   createDate = table.Column<DateTime>(type: "datetime2", nullable: false)
-               },
-               constraints: table =>
-               {
-                   table.PrimaryKey("PK_tblHistoryRate", x => x.id);
-               });
 
             migrationBuilder.CreateTable(
                 name: "tblBankRate",
@@ -218,6 +197,25 @@ namespace SL_Bullion.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "tblHistoryRate",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    clientId = table.Column<int>(type: "int", nullable: false),
+                    symbolName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    openRate = table.Column<double>(type: "float", nullable: false),
+                    closeRate = table.Column<double>(type: "float", nullable: false),
+                    highRate = table.Column<double>(type: "float", nullable: false),
+                    lowRate = table.Column<double>(type: "float", nullable: false),
+                    createDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_tblHistoryRate", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "tblKyc",
                 columns: table => new
                 {
@@ -276,6 +274,9 @@ namespace SL_Bullion.Migrations
                     isBank = table.Column<bool>(type: "bit", nullable: false),
                     isFeedback = table.Column<bool>(type: "bit", nullable: false),
                     isClientRate = table.Column<bool>(type: "bit", nullable: false),
+                    isHistory = table.Column<bool>(type: "bit", nullable: false),
+                    isSlider = table.Column<bool>(type: "bit", nullable: false),
+                    totalSlider = table.Column<int>(type: "int", nullable: true),
                     createDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     modifiedDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
@@ -332,6 +333,23 @@ namespace SL_Bullion.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_tblReferanceSymbol", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "tblSlider",
+                columns: table => new
+                {
+                    SliderId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ClientId = table.Column<int>(type: "int", nullable: false),
+                    SliderThumbnailPath = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    SliderPath = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_tblSlider", x => x.SliderId);
                 });
 
             migrationBuilder.CreateTable(
@@ -411,6 +429,9 @@ namespace SL_Bullion.Migrations
                 name: "tblFeedback");
 
             migrationBuilder.DropTable(
+                name: "tblHistoryRate");
+
+            migrationBuilder.DropTable(
                 name: "tblKyc");
 
             migrationBuilder.DropTable(
@@ -426,9 +447,10 @@ namespace SL_Bullion.Migrations
                 name: "tblReferanceSymbol");
 
             migrationBuilder.DropTable(
-                name: "tblSymbol");
+                name: "tblSlider");
+
             migrationBuilder.DropTable(
-               name: "tblHistoryRate");
+                name: "tblSymbol");
 
             migrationBuilder.DropTable(
                 name: "tblUpdate");
