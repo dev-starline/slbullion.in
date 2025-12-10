@@ -280,6 +280,7 @@ namespace SL_Bullion.WebAPI
         /// 
 
         [HttpGet("historyRate")]
+
         public async Task<JsonResult> HistoryRate(string user, string fromDate, string toDate, string type)
         {
             var _response = new ResponseBody();
@@ -287,7 +288,6 @@ namespace SL_Bullion.WebAPI
             {
                 int clientId = getClientId(user);
 
-                // Parse dates
                 DateTime fromDateValue;
                 DateTime toDateValue;
                 string dateFormat = "dd/MM/yyyy";
@@ -300,21 +300,39 @@ namespace SL_Bullion.WebAPI
                     return Json(_response);
                 }
 
-                // Set to end of day for toDate
                 toDateValue = toDateValue.Date.Add(new TimeSpan(23, 59, 59));
-                var query = _context.tblHistoryRate.Where(h => h.clientId == clientId && h.createDate >= fromDateValue && h.createDate <= toDateValue);
-                // 4. Apply type filter if not ALL
+
+                var fromDateOnly = DateOnly.FromDateTime(fromDateValue);
+                var toDateOnly = DateOnly.FromDateTime(toDateValue);
+
+                var query = _context.tblHistoryRate
+                    .Where(h => h.clientId == clientId
+                             && h.historyDate >= fromDateOnly
+                             && h.historyDate <= toDateOnly);
+
                 if (!string.IsNullOrEmpty(type) && !type.Equals("ALL", StringComparison.OrdinalIgnoreCase))
                 {
                     var typeUpper = type.ToUpper();
                     query = query.Where(h => h.symbolName != null && h.symbolName.ToUpper() == typeUpper);
                 }
 
+                var data = await query
+                    .OrderByDescending(h => h.createDate)
+                    .Select(h => new
+                    {
+                        h.id,
+                        h.clientId,
+                        h.symbolName,
+                        h.openRate,
+                        h.closeRate,
+                        h.highRate,
+                        h.lowRate,
+                        historyDate = h.createDate,          
+                        createDate = h.historyDate.ToString("yyyy-MM-dd") 
+                    })
+                    .ToListAsync();
 
-                // Execute query
-                var data = await query.OrderByDescending(h => h.createDate).ToListAsync();
-
-                if (data.Count > 0)
+                if (data.Any())
                 {
                     _response.code = 200;
                     _response.message = "Data fetched successfully";
@@ -323,7 +341,7 @@ namespace SL_Bullion.WebAPI
                 else
                 {
                     _response.code = 404;
-                    _response.message = _message.C104; // No records found
+                    _response.message = _message.C104; 
                     _response.data = Array.Empty<object>();
                 }
             }
@@ -336,6 +354,63 @@ namespace SL_Bullion.WebAPI
 
             return Json(_response);
         }
+
+        //public async Task<JsonResult> HistoryRate(string user, string fromDate, string toDate, string type)
+        //{
+        //    var _response = new ResponseBody();
+        //    try
+        //    {
+        //        int clientId = getClientId(user);
+
+        //        // Parse dates
+        //        DateTime fromDateValue;
+        //        DateTime toDateValue;
+        //        string dateFormat = "dd/MM/yyyy";
+
+        //        if (!DateTime.TryParseExact(fromDate, dateFormat, CultureInfo.InvariantCulture, DateTimeStyles.None, out fromDateValue) ||
+        //            !DateTime.TryParseExact(toDate, dateFormat, CultureInfo.InvariantCulture, DateTimeStyles.None, out toDateValue))
+        //        {
+        //            _response.code = 400;
+        //            _response.message = _message.C103;
+        //            return Json(_response);
+        //        }
+
+        //        // Set to end of day for toDate
+        //        toDateValue = toDateValue.Date.Add(new TimeSpan(23, 59, 59));
+        //        var query = _context.tblHistoryRate.Where(h => h.clientId == clientId && h.createDate >= fromDateValue && h.createDate <= toDateValue);
+        //        // 4. Apply type filter if not ALL
+        //        if (!string.IsNullOrEmpty(type) && !type.Equals("ALL", StringComparison.OrdinalIgnoreCase))
+        //        {
+        //            var typeUpper = type.ToUpper();
+        //            query = query.Where(h => h.symbolName != null && h.symbolName.ToUpper() == typeUpper);
+        //        }
+
+
+        //        // Execute query
+        //        var data = await query.OrderByDescending(h => h.createDate).ToListAsync();
+
+        //        if (data.Count > 0)
+        //        {
+        //            _response.code = 200;
+        //            _response.message = "Data fetched successfully";
+        //            _response.data = data;
+        //        }
+        //        else
+        //        {
+        //            _response.code = 404;
+        //            _response.message = _message.C104; // No records found
+        //            _response.data = Array.Empty<object>();
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _response.code = 500;
+        //        _response.message = $"Internal server error: {ex.Message}";
+        //        _response.data = Array.Empty<object>();
+        //    }
+
+        //    return Json(_response);
+        //}
 
         /// <remarks>
         /// Sample request:
