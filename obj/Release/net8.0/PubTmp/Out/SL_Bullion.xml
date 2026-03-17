@@ -4,16 +4,28 @@
         <name>SL_Bullion</name>
     </assembly>
     <members>
-        <member name="T:SL_Bullion.Migrations.initial">
+        <member name="T:SL_Bullion.Migrations.sladmin">
             <inheritdoc />
         </member>
-        <member name="M:SL_Bullion.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <member name="M:SL_Bullion.Migrations.sladmin.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:SL_Bullion.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <member name="M:SL_Bullion.Migrations.sladmin.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:SL_Bullion.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+        <member name="M:SL_Bullion.Migrations.sladmin.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SL_Bullion.Migrations.historyDate">
+            <inheritdoc />
+        </member>
+        <member name="M:SL_Bullion.Migrations.historyDate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SL_Bullion.Migrations.historyDate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SL_Bullion.Migrations.historyDate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
         <member name="M:SL_Bullion.WebAPI.bullionController.version(System.String,System.String)">

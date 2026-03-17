@@ -219,7 +219,10 @@ namespace SL_Bullion.Constant
                          isHigh = s.isHigh,
                          isLow = s.isLow,
                          isRate = s.isRate,
-                         isCoin = s.isCoinRate
+                         isCoin = s.isCoinRate,
+                         isOtr = _context.tblMaster.Where(m => m.id == s.clientId).Select(m => m.isOtr).FirstOrDefault(),
+                         av = _context.tblMaster.Where(m => m.id == s.clientId).Select(m => m.versionAndroid).FirstOrDefault(),
+                         iv = _context.tblMaster.Where(m => m.id == s.clientId).Select(m => m.versionIos).FirstOrDefault()
                      })
                      .ToList();
             string jsonString = JsonSerializer.Serialize(result);
