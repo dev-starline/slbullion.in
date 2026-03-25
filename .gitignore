@@ -376,3 +376,5 @@ ExcelHostApp/wwwroot/RateHistory/
 *.suo
 *.db
 *.editorconfig
+/obj/Debug/net8.0/SL_Bullion.AssemblyInfo.cs
+/obj/Debug/net8.0/SL_Bullion.AssemblyInfoInputs.cache
