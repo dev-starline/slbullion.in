@@ -16,8 +16,16 @@
                 <div class="top-cover text-right update-form">
                     <div class="form-inline my-2 my-lg-0 justify-content-end">
                         <form asp-action="search" method="GET">
-                            <input type="date" name="fromDate" id="fromDate" class="text-left" value="@DateTime.Today.ToString("yyyy-MM-dd")">
-                            <input type="date" name="toDate" id="toDate" class="text-left" value="@DateTime.Today.ToString("yyyy-MM-dd")">
+                            <input type="date" name="fromDate" id="fromDate" class="text-left"
+                                   value="@(ViewBag.FromDate == null ? DateTime.Today.ToString("yyyy-MM-dd")
+                                          : ((DateTime)ViewBag.FromDate).ToString("yyyy-MM-dd"))" />
+
+                            <input type="date" name="toDate" id="toDate" class="text-left"
+                                   value="@(ViewBag.ToDate == null ? DateTime.Today.ToString("yyyy-MM-dd")
+                                   : ((DateTime)ViewBag.ToDate).ToString("yyyy-MM-dd"))" />
+
+                           @*  <input type="date" name="fromDate" id="fromDate" class="text-left" value="@DateTime.Today.ToString("yyyy-MM-dd")">
+                            <input type="date" name="toDate" id="toDate" class="text-left" value="@DateTime.Today.ToString("yyyy-MM-dd")"> *@
                             <button class="btn common-bg color-white my-2 my-sm-0 sm-font">Search</button>
                         </form>
                     </div>

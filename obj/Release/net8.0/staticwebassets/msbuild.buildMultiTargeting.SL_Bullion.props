@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\SL_Bullion.props" />
-</Project>

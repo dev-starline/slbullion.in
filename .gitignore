@@ -361,3 +361,18 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Build artifacts
+bin/
+obj/
+
+# wwwroot exclusions
+ExcelHostApp/wwwroot/sheets/
+ExcelHostApp/wwwroot/RateHistory/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.db
+*.editorconfig

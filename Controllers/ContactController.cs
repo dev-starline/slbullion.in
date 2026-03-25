@@ -124,45 +124,113 @@ namespace SL_Bullion.Controllers
             }
             return returnData;
         }
+
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id, string type)
         {
             try
             {
-                string relativePath = "", filePath="";
                 var contact = await _context.tblContact.FindAsync(id);
-                if (type == "web" && contact != null && !string.IsNullOrEmpty(contact.bannerWeb))
+                if (contact == null)
                 {
-                    var uri = new Uri(contact.bannerWeb.Replace('\\', '/'));
-                    relativePath = uri.AbsolutePath.TrimStart('/');
-                    filePath = Path.Combine(_webHostEnvironment.WebRootPath, relativePath);
+                    _alert.AddWarningToastMessage("Contact not found.");
+                    return RedirectToAction(nameof(List));
+                }
+
+                string filePathToDelete = null;
+
+                if (type == "web" && !string.IsNullOrEmpty(contact.bannerWeb))
+                {
+                    filePathToDelete = GetPhysicalPath(contact.bannerWeb);
                     contact.bannerWeb = null;
                 }
-                else if (type == "app" && contact != null && !string.IsNullOrEmpty(contact.bannerApp))
+                else if (type == "app" && !string.IsNullOrEmpty(contact.bannerApp))
                 {
-                    var uri = new Uri(contact.bannerApp.Replace('\\', '/'));
-                    relativePath = uri.AbsolutePath.TrimStart('/');
-                    filePath = Path.Combine(_webHostEnvironment.WebRootPath, relativePath);
+                    filePathToDelete = GetPhysicalPath(contact.bannerApp);
                     contact.bannerApp = null;
                 }
-                if (System.IO.File.Exists(filePath))
+                else
                 {
-                    System.IO.File.Delete(filePath);
-                    _context.Update(contact);
-                    await _context.SaveChangesAsync();
-                    _constatnt.pushContactDetails(contact.clientId);
-                    _alert.AddSuccessToastMessage("Banner deleted.");
+                    _alert.AddInfoToastMessage("No banner found to delete.");
+                    return RedirectToAction(nameof(List));
                 }
-            }
-            catch (Exception)
-            {
 
-                throw;
+                if (!string.IsNullOrEmpty(filePathToDelete) && System.IO.File.Exists(filePathToDelete))
+                {
+                    System.IO.File.Delete(filePathToDelete);
+                }
+
+                _context.Update(contact);
+                await _context.SaveChangesAsync();
+
+                _constatnt.pushContactDetails(contact.clientId);
+
+                _alert.AddSuccessToastMessage("Banner deleted successfully.");
             }
-            
+            catch (Exception ex)
+            {
+                _alert.AddErrorToastMessage("Failed to delete banner.");
+            }
+
             return RedirectToAction(nameof(List));
         }
+
+        private string GetPhysicalPath(string virtualPath)
+        {
+            if (string.IsNullOrEmpty(virtualPath))
+                return null;
+
+            var cleanPath = virtualPath.Split('?')[0].Trim();
+
+            if (Path.IsPathRooted(cleanPath))
+                return cleanPath;
+
+            if (cleanPath.StartsWith("~/"))
+                cleanPath = cleanPath.Substring(2);
+            else if (cleanPath.StartsWith("/"))
+                cleanPath = cleanPath.Substring(1);
+
+            return Path.Combine(_webHostEnvironment.WebRootPath, cleanPath);
+        }
+
+        //public async Task<IActionResult> DeleteConfirmed(int id, string type)
+        //{
+        //    try
+        //    {
+        //        string relativePath = "", filePath="";
+        //        var contact = await _context.tblContact.FindAsync(id);
+        //        if (type == "web" && contact != null && !string.IsNullOrEmpty(contact.bannerWeb))
+        //        {
+        //            var uri = new Uri(contact.bannerWeb.Replace('\\', '/'));
+        //            relativePath = uri.AbsolutePath.TrimStart('/');
+        //            filePath = Path.Combine(_webHostEnvironment.WebRootPath, relativePath);
+        //            contact.bannerWeb = null;
+        //        }
+        //        else if (type == "app" && contact != null && !string.IsNullOrEmpty(contact.bannerApp))
+        //        {
+        //            var uri = new Uri(contact.bannerApp.Replace('\\', '/'));
+        //            relativePath = uri.AbsolutePath.TrimStart('/');
+        //            filePath = Path.Combine(_webHostEnvironment.WebRootPath, relativePath);
+        //            contact.bannerApp = null;
+        //        }
+        //        if (System.IO.File.Exists(filePath))
+        //        {
+        //            System.IO.File.Delete(filePath);
+        //            _context.Update(contact);
+        //            await _context.SaveChangesAsync();
+        //            _constatnt.pushContactDetails(contact.clientId);
+        //            _alert.AddSuccessToastMessage("Banner deleted.");
+        //        }
+        //    }
+        //    catch (Exception)
+        //    {
+
+        //        throw;
+        //    }
+
+        //    return RedirectToAction(nameof(List));
+        //}
         private bool clientExists(int clientId)
         {
             return _context.tblContact.Any(e => e.clientId == clientId);
